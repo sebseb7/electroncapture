@@ -200,7 +200,7 @@ async function createWindow(args, reuse=false){
 			URL = "https://"+URL.toString();
 		}
 	} catch(e){
-		URL = "https://vdo.ninja/electron?version="+ver;
+		URL = "https://google.com";
 	}
 
 	let currentTitle = "ElectronCapture";
