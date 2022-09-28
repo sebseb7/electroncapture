@@ -143,7 +143,7 @@ try {
 					var json = JSON.parse(fd);
 					
 					if (json.name.startsWith("_")){
-						return;			
+					//	return;			
 					}
 					
 					extensions.push({
@@ -623,7 +623,7 @@ contextMenu({
 				DoNotClose = true;
 				var ver = app.getVersion();
 				var args = browserWindow.args; // reloading doesn't work otherwise
-				args.url = "https://vdo.ninja/electron?version="+ver;
+				args.url = "https://google.com";
 				var title = browserWindow.getTitle();
 				browserWindow.destroy();
 				createWindow(args, title); // we close the window and open it again; a faked refresh
